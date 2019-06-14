@@ -5,14 +5,26 @@ html {
 }
 
 * {
-    margin: 0px;
+    margin: auto;
     padding: 0px;
 }
 
 nav {
-    background-color: rgba(255,255,255,0.4);
-/*    opacity: .4; */
-   margin: 2vh 0px;
+    background-color: rgba(255, 255, 255, 0.4);
+    /*    opacity: .4; */
+    margin: 2vh 0px;
     padding: 20px;
-    
+
+}
+
+.logo {
+    display: block;
+    margin: auto;
+}
+
+nav a{
+    width: 33%;
+    display: flex;
+    margin: auto;
+    display: inline-block;
 }
