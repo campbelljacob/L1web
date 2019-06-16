@@ -22,9 +22,11 @@ nav {
     margin: auto;
 }
 
-nav a{
+nav a {
     width: 33%;
     display: flex;
     margin: auto;
     display: inline-block;
+    text-align: center;
+    font-size: 200%;
 }
