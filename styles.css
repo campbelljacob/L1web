@@ -1,3 +1,8 @@
+@font-face {
+    font-family: dripping;
+    src: url(fonts/dripping.ttf);
+}
+
 html {
     background-image: url(images/bg.jpg);
     background-size: 100vw 100vh;
@@ -14,7 +19,6 @@ nav {
     /*    opacity: .4; */
     margin: 2vh 0px;
     padding: 20px;
-
 }
 
 .logo {
@@ -29,4 +33,25 @@ nav a {
     display: inline-block;
     text-align: center;
     font-size: 250%;
+    color: white;
+    font-family: dripping;
+    text-decoration: none;
+}
+
+section {
+    text-align: left;
+    opacity: 0.5;
+    background-color: white;
+    height: 30vh;
+    width: 20%;
+    margin: 5vh auto;
+    color: black;
+    position: absolute;
+    left: 150px;
+    width: 300px;
+    padding: 10px;
+}
+
+div {
+    0px;
 }
