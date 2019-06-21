@@ -39,19 +39,37 @@ nav a {
 }
 
 section {
-    text-align: left;
-    opacity: 0.5;
-    background-color: white;
-    height: 30vh;
-    width: 20%;
+    display: flex;
+    width: 80%;
     margin: 5vh auto;
-    color: black;
-    position: absolute;
-    left: 150px;
-    width: 300px;
-    padding: 10px;
 }
 
-div {
-    0px;
+.left {
+    width: 15%;
+    background-color: rgba(255,255,255,0.5);
+    padding: 1vh 1.5%;
+}
+
+.right {
+    width: 60%;
+}
+
+.right ul {
+    width: 100%;
+    display: flex;
+}
+
+.right li {
+    width: 35%;
+    margin: 5%;
+    padding: 5%;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.right li img {
+    width: 100%;
+}
+
+h1 { 
+    color: black;
 }
