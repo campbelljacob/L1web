@@ -10,7 +10,7 @@ html {
 }
 
 * {
-    margin: auto;
+    margin: 0px;
     padding: 0px;
 }
 
@@ -46,8 +46,10 @@ section {
 
 .left {
     width: 15%;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 1vh 1.5%;
+    min-height: 15vh;
+    height: 47vh;
 }
 
 .right {
@@ -63,13 +65,39 @@ section {
     width: 35%;
     margin: 5%;
     padding: 5%;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .right li img {
-    width: 100%;
+    width: ;
+    margin-right: 5px;
+    margin-right: 5;
 }
 
-h1 { 
+li {
+    list-style: none;
+}
+
+h1 {
     color: black;
+}
+
+div {
+    0px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    font-family: dripping;
+    display: flex;
+    position: relative;
+    left: 0;
+    bottom: 0;
 }
