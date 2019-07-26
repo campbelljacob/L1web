@@ -1,14 +1,12 @@
 @font-face {
     font-family: dripping;
     src: url(fonts/dripping.ttf);
-    /* non default font */
 }
 
 html {
     background-image: url(images/bg.jpg);
     background-size: 100vw 100vh;
     background-attachment: fixed;
-    /* background image */
 }
 
 * {
@@ -38,14 +36,12 @@ nav a {
     color: white;
     font-family: dripping;
     text-decoration: none;
-    /* Home, Shop and Contact buttons in nav bar */
 }
 
 section {
     display: flex;
     width: 80%;
     margin: 5vh auto;
-    /* backgrond behind phone case */
 }
 
 .left {
@@ -104,5 +100,4 @@ footer {
     position: relative;
     left: 0;
     bottom: 0;
-    /* footer tag */
 }
